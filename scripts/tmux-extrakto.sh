@@ -1,6 +1,7 @@
 #!/bin/bash
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+ACTIVE_PANE=$1
 source "$CURRENT_DIR/helpers.sh"
 extrakto="$CURRENT_DIR/../extrakto.py"
 
